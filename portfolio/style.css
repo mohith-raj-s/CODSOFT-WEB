@@ -83,8 +83,27 @@ a{
     background-color: brown;
     width:50%;
 }
+
 #projects{
     background-color: deepskyblue;
+}
+#project-heading{
+    color:royalblue;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 20%;
+}
+.project-title{
+    color:darkred;
+    margin-left:32px;
+}
+.project-content{
+    font-size: 21px;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right:32px;
+    margin-left:50px;
 }
 #contact{
     background-color: lightblue;
