@@ -6,6 +6,15 @@ function cls(){
 }
 function result(){
     let x=document.getElementById("inputbar").value;
-    let result=eval(x);
-    document.getElementById("inputbar").value=result;
+    if(x[x.length-1] == "+" ||
+       x[x.length-1] == "-" ||
+       x[x.length-1] == "*"||
+       x[x.length-1] == "/"){
+        alert("Invalid : Missing Operand");
+    }
+    else{
+        let result=eval(x);
+        document.getElementById("inputbar").value=result;
+    }
+    
 }
