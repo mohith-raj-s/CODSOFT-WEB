@@ -12,6 +12,9 @@ function result(){
        x[x.length-1] == "/"){
         alert("Invalid : Missing Operand");
     }
+    else if(x == ''){
+        null;
+    }
     else{
         let result=eval(x);
         document.getElementById("inputbar").value=result;
