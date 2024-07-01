@@ -111,6 +111,38 @@ a{
     align-items: center;
     height:130px;
 }
+#main2{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top:20px;
+    margin-left:260px;
+    width:65%;
+    height:550px;
+}
+.container2{
+    box-shadow:10px 7px 15px #888888;
+    border-radius: 10px;
+    background-color:white;
+    flex-basis: 26%;
+    width:100px;
+    height:250px;
+}
+.container2 img{
+    width:150px;
+    height:150px;
+    margin:15px 55px;
+}
+.container2 h4{
+    display:flex;
+    justify-content:center;
+}
+.container2 p{
+    display:flex;
+    justify-content: center;
+    color:lightcoral;
+    margin-top:10px;
+}
 #contact{
     background-color:blanchedalmond;
     width:100%;
